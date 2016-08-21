@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='en'>
+<!-- Head -->
+	<head>
+		<link rel='reset' href='assets/css/reset.css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> 
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	</head>
+
+<!--Body  -->
+	<body>
+	<div class='jumbotron text-center'>
+		<div class='container'>
+			<h1> Hangman</h1>
+		</div>
+	</div>	
+		<div class='container'>
+			<div class='row'>
+				<div class='col-sm-12'>
+
+				</div>
+			</div>
+			<div class='row'>
+				<div class='col-sm-3 col-sm-offset-3'>
+					<button id='wordGen' class='btn btn-default' onclick='pickword()'>Pick a word</button>	
+				</div>
+				<div class='col-sm-3'>						
+					<div id='guessWord' class='text-center'>
+				</div>
+				</div>
+			</div>
+			<div class='row'>
+				<div class='col-sm-6 col-offset-3'>
+					<div id='classImg'>
+					</div> 
+				</div>
+				<div class='col-sm-3 col-sm-offset-3'>
+					<div class='wrongGuess'>
+						<div class='panel panel-default'>
+							<div class='panel-heading text-center'>
+							Guesses/Wins/Losses
+							</div>
+							<div class='panel-body'>
+							<p id='wins'>Wins:<br></p>
+							<p id='losses'>Losses:<br></p>
+							<p id='guesses'>Guesses:<br></p>
+							</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	</body>
+</html>
